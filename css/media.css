@@ -1,0 +1,138 @@
+@media (max-width: 1100px){
+    .progress img {
+        max-width: 580px;
+    }
+}
+@media (max-width: 1080px){
+    .work-box p {
+        width: 290px;
+    }
+    .progress img {
+        max-width: 540px;
+    }
+    .footer ul img {
+        width: 160px;
+    }
+    .trust-table img {
+        width: 160px;
+    }
+}
+@media (max-width: 1050px){
+    .progress img {
+        max-width: 520px;
+    }
+    .main h1 {
+        font-size: 52px;
+    }
+    .main-submit input {
+        width: 328px;
+        padding-left: 15px;
+        font-size: 14px;
+    }
+    .main-submit button {
+        width: 130px;
+        font-size: 14px;
+    }
+    .nav-btn button {
+        padding: 12px 15px;
+        font-size: 15px;
+    }
+    nav select, a, button {
+        font-size: 15px;
+    }
+    .icon-box {
+        width: 60px;
+        height: 60px;
+    }
+    .icon-box img {
+        width: 60px;
+    }
+}
+@media (max-width: 1024px){
+    .progress img {
+        max-width: 500px;
+    }
+    .icon-box {
+        width: 57px;
+        height: 57px;
+    }
+    .icon-box img {
+        width: 57px;
+    }
+    .work-box p {
+        width: 270px;
+    }
+    .work-box p {
+        font-size: 14.5px;
+    }
+    .progress-text button {
+        padding: 13px 16px;
+    }
+    .trust-table h1 {
+        font-size: 26px;
+    }
+    .header h3 {
+        font-size: 20px;
+    }
+    nav select, a, button {
+        font-size: 15px;
+    }
+    .main h1 {
+        font-size: 48px;
+    }
+    .main p {
+        font-size: 14px;
+    }
+}
+@media (max-width: 1007px){
+    .work-box p {
+        font-size: 14.5px;
+    }
+    .progress-text button {
+        padding: 13px 16px;
+    }
+    .trust-table h1 {
+        font-size: 26px;
+    }
+    .header h3 {
+        font-size: 20px;
+    }
+    nav select, a, button {
+        font-size: 15px;
+    }
+    .main h1 {
+        font-size: 48px;
+    }
+    .main p {
+        font-size: 14px;
+    }
+    .trust-table img {
+        width: 150px;
+    }
+    .footer ul img {
+        width: 150px;
+    }
+    element.style {
+        width: 900px;
+    }
+}
+@media (max-width: 1000px){
+    .progress img {
+        max-width: 460px;
+    }
+    ul li {
+        font-size: 15px;
+        color: #ffffffa0;
+    }
+    .footer-end p {
+        font-size: 14px;
+    }
+    nav {
+        width: 680px;
+        display: flex;
+        justify-content: space-between;
+    }
+    element.style {
+        width: 880px;
+    }
+}
