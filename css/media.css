@@ -2,6 +2,9 @@
     .progress img {
         max-width: 580px;
     }
+    .ttt img {
+        width: 1050px;
+    }
 }
 @media (max-width: 1080px){
     .work-box p {
@@ -15,6 +18,9 @@
     }
     .trust-table img {
         width: 160px;
+    }
+    .ttt img {
+        width: 1020px;
     }
 }
 @media (max-width: 1050px){
@@ -46,6 +52,9 @@
     }
     .icon-box img {
         width: 60px;
+    }
+    .ttt img {
+        width: 1000px;
     }
 }
 @media (max-width: 1024px){
@@ -83,6 +92,9 @@
     .main p {
         font-size: 14px;
     }
+    .ttt img {
+        width: 970px;
+    }
 }
 @media (max-width: 1007px){
     .work-box p {
@@ -115,6 +127,9 @@
     element.style {
         width: 900px;
     }
+    .ttt img {
+        width: 950px;
+    }
 }
 @media (max-width: 1000px){
     .progress img {
@@ -135,4 +150,47 @@
     element.style {
         width: 880px;
     }
+    .work-box p {
+        font-size: 14px;
+    }
+    .ttt img {
+        width: 920px;
+    }
+    .timeline-box {
+        padding: 14px 9px;
+    }
+    .timeline img {
+        max-width: 600px;
+    }
+}
+@media (max-width: 960px){
+    .timeline-box {
+        width: 220px;
+        padding: 10px 25px;
+    }
+    .timeline img {
+        max-width: 520px;
+    }
+    .timeline-box p {
+        line-height: 17px;
+    }
+    .work-box p {
+        width: 250px;
+    }
+    .progress img {
+        max-width: 440px;
+    }
+    .progress-text h1 {
+        font-size: 25px;
+    }
+    .progress-text p {
+        width: 380px;
+        font-size: 15px;
+    }
+    .ttt img {
+        width: 900px;
+    }
+}
+@media (max-width: 960px){
+
 }
