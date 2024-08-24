@@ -1,3 +1,14 @@
+@media (max-width: 1300px){
+    .ttt img {
+        width: 1100px;
+    }
+}
+@media (max-width: 1200px){
+    .ttt img {
+        width: 1050px;
+    }
+}
+
 @media (max-width: 1100px){
     .progress img {
         max-width: 580px;
@@ -164,6 +175,28 @@
     }
 }
 @media (max-width: 960px){
+    nav{
+        display: none;
+    }
+    .burger-menu { 
+        display: flex; 
+        width: 17px; 
+        height: 17px; 
+        padding: 5px 5px; 
+        flex-direction: column; 
+        justify-content: space-between; 
+        border: 1px solid #4a4a4a; 
+        border-radius: 5px; 
+        cursor: pointer; 
+        gap: 5px; 
+        background: #ffffffa0; 
+      } 
+      .burger-menu .stick { 
+        height: 5px; 
+        width: 100%; 
+        background-color: #000; 
+      }
+
     .timeline-box {
         width: 220px;
         padding: 10px 25px;
@@ -190,7 +223,999 @@
     .ttt img {
         width: 900px;
     }
+    .team-box img {
+        width: 55px;
+    }
+    .team-box p {
+        font-size: 16px;
+    }
+    .team-box p span {
+        font-size: 14px;
+    }
+    .footer ul img {
+        width: 130px;
+    }
+    .trust-table img {
+        width: 130px;
+    }
 }
-@media (max-width: 960px){
+@media (max-width: 930px){
 
 }
+@media (max-width: 900px){
+    .progress img {
+        max-width: 400px;
+    }
+    .icon-box img {
+        width: 50px;
+    }
+    .icon-box {
+        width: 50px;
+        height: 50px;
+    }
+    .work-box h4 {
+        font-size: 17px;
+    }
+    .work-box p {
+        width: 240px;
+    }
+    .footer-icons div {
+        width: 33px;
+        height: 33px;
+        font-size: 19px;
+    }
+    .nav-btn button {
+        padding: 10px 10px;
+        font-size: 13px;
+    }
+    nav select, a, button {
+        font-size: 14px;
+    }
+    .header h3 {
+        font-size: 18px;
+    }
+    nav {
+        width: 630px;
+    }
+    .nav-link {
+        gap: 36px;
+    }
+    .ttt img {
+        width: 820px;
+    }
+    .main-teams_image {
+        width: 720px;
+    }
+    .main h1 {
+        font-size: 42px;
+    }
+    .team p {
+        font-size: 15px;
+        line-height: 27px;
+    }
+    .main-acc button {
+        padding: 8px 14px;
+    }
+    .save {
+        font-size: 15px;
+        padding: 8px 28px;
+    }
+    .main-submit input {
+        width: 220px;
+        padding-left: 15px;
+        font-size: 14px;
+        height: 43px;
+    }
+    .main-submit button {
+        font-size: 14px;
+        width: 47px;
+        height: 47px;
+    }
+    .main p {
+        font-size: 13px;
+    }
+    .timeline-box {
+        width: 220px;
+        padding: 15px;
+    }
+}
+@media (max-width: 850px){
+    .main h1 {
+        width: 600px;
+        font-size: 40px;
+    }
+    .ttt img {
+        width: 800px;
+    }
+    .timeline img {
+        max-width: 500px;
+    }
+    .timeline-box p {
+        line-height: 18px;
+        font-size: 12px;
+    }
+    #work h1 {
+            font-size: 25px;
+    }
+    .trust-table h1 {
+        font-size: 25px;
+    }
+    .progress img {
+        max-width: 350px;
+    }
+    .progress-text p {
+        width: 350px;
+        font-size: 14px;
+    }
+    .progress-text button {
+        padding: 13px 15px;
+    }
+    .work-box p {
+        width: 230px;
+    }   
+}
+@media (max-width: 820px){
+    nav select, a, button {
+        font-size: 13px;
+    }
+    .nav-btn button {
+        padding: 8px;
+    }
+    .header h3 {
+        font-size: 17px;
+    }
+    nav {
+        width: 590px;
+    }
+    .save {
+        font-size: 13px;
+        padding: 8px 28px;
+    }
+    .main-submit button {
+        font-size: 14px;
+        width: 47px;
+    }
+    .main-submit button {
+        font-size: 14px;
+        width: -webkit-fill-available;
+        padding: 10px;
+        height: 47px;
+    }
+    .ttt img {
+        width: 750px;
+    }
+    .main-teams_image img {
+        width: 70px;
+    }
+    .main-teams_image {
+        width: 650px;
+    }
+    .timeline img {
+        max-width: 450px;
+    }
+    .timeline-box {
+        width: 210px;
+        padding: 12px;
+    }
+    .work-box h4 {
+        font-size: 15px;
+    }
+    .work-box {
+        padding-block: 10px;
+    }
+    .work-box p {
+        font-size: 13px;
+        width: 240px;
+    }
+    .work {
+        align-content: space-around;
+    }
+    .trust-table img {
+        width: 125px;
+    }
+    footer ul img {
+        width: 125px;
+    }
+    #header {
+        padding: 30px 0;
+        display: flex;
+    }
+    .team-box img {
+        width: 50px;
+    }
+    #work {
+        padding: 80px 0 140px;
+    }
+    .work {
+        justify-content: space-around;
+    }
+}
+@media (max-width: 800px){
+    .trust-table h1 {
+        font-size: 24px;
+    }
+    .trust-table {
+        height: 220px;
+        justify-content: space-around;
+    }
+    .team-box img {
+        width: 48px;
+    }
+    .team-box p span {
+        font-size: 13px;
+    }
+}
+@media (max-width: 780px){
+    .trust-table {
+        padding: 0 30px;
+        height: 210px;
+    }
+    .trust-table img {
+        width: 120px;
+    }
+    .footer ul img {
+        width: 120px;
+    }
+    ul li {
+        font-size: 14px;
+    }
+    .progress-text button {
+        padding: 12px 14px;
+    }
+    .progress-text p {
+        width: 330px;
+    }
+    .timeline-box {
+        width: 200px;
+    }
+    .main-submit input {
+        width: 230px;
+       height: 38px;
+    }
+    .main-submit button {
+        height: 42px;
+    }
+}
+@media (max-width: 750px){
+    .trust-table h1 {
+        font-size: 21px;
+    }
+    .team-box {
+        gap: 15px;
+    }
+    .team p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .main h1 {
+        font-size: 38px; 
+   }  
+   .main-submit button {
+    padding: 8px;
+    height: 42px;
+   } 
+   .ttt img {
+    width: 720px;
+   }
+   .main-teams_image {
+    width: 600px;
+}
+.timeline img {
+    max-width: 430px;
+}
+.timeline-box h4 {
+    font-size: 14px;
+    font-weight: 700;
+}
+.progress-text p {
+    width: 312px;
+    font-size: 13px;
+}
+.team-box img {
+    width: 45px;
+}
+.team p {
+    font-size: 14px;
+    line-height: 20px;
+}
+ul li {
+    font-size: 13px;
+}
+.main {
+    gap: 10px;
+}
+}
+@media (max-width: 720px){
+    .progress img {
+        max-width: 262px;
+    }
+    .timeline-box {
+        width: 190px;
+    }
+    .progress-text button {
+        padding: 9px 10px;
+        font-size: 12px;
+    }
+    .team h1 {
+        font-size: 26px;
+    }
+    .main h1 {
+        font-size: 37px;
+        width: 500px;
+    }
+    .ttt img {
+        width: 680px;
+    }
+    .main-teams_image {
+        width: 580px;
+    }
+    .timeline img {
+        max-width: 385px;
+    }
+    #footer {
+        padding-block: 50px;
+    }
+    #team {
+        padding: 75px 0;
+    }
+    .team-box {
+        gap: 10px;
+    }
+    .save {
+        padding: 8px 26px;
+    }
+    .footer-icons div {
+        font-size: 18px;
+        width: 30px;
+        height: 30px;
+    }
+}
+@media (max-width: 680px){
+    .trust-table img {
+        width: 115px;
+    }
+    .trust-table h1 {
+        font-size: 18px;
+    }
+    .trust-table {
+        height: 200px;
+    }
+    .team-box img {
+        width: 40px;
+    }
+    .ttt img {
+        width: 660px;
+    }
+    .footer ul img {
+        width: 115px;
+    }
+    .main h1 {
+        font-size: 32px;
+        width: 480px;
+    }
+    .ttt img {
+        width: 630px;
+    }
+}
+@media (max-width: 650px){
+    .trust-table h1 {
+        font-size: 17px;
+    }
+    .team p {
+        font-size: 13px;
+    }
+    .team-box img {
+        width: 38px;
+    }
+    .team-box p span {
+        font-size: 12px;
+    }
+    .trust-table img {
+        width: 110px;
+    }
+    .footer ul img {
+        width: 110px;
+    }
+    .main-teams_image img {
+        width: 64px;
+    }
+    .main h1 {
+        font-size: 30px;
+    }
+    .main-submit input {
+        width: 220px;
+        height: 34px;
+        font-size: 12px;
+    }
+    .main-submit button {
+        padding: 8px;
+        height: 38px;
+        font-size: 12px;
+    }
+    .main-teams_image {
+        width: 530px;
+    }
+   
+    .work-box p {
+        font-size: 12px;
+        width: 235px;
+    }
+    #main {
+        padding: 75px 0 50px 0;
+    }
+    .save {
+        padding: 7px 22px;
+    }
+    .main-acc button {
+        padding: 7.5px 10px;
+    }
+    .main p {
+        font-size: 13px;
+    }
+    .timeline img {
+        max-width: 360px;
+    }
+    .timeline-box p {
+        font-size: 12px;
+    }
+    .icon-box img {
+        width: 46px;
+    }
+    .icon-box {
+        width: 47px;
+        height: 47px;
+    }
+}
+@media (max-width: 600px){
+    .progress-text h1 {
+        font-size: 22px;
+    }
+    .progress-text p {
+        width: 260px;
+        font-size: 12px;
+    }
+    .team h1 {
+        font-weight: 700;
+        font-size: 24px;
+    }
+    .trust-table h1 {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .trust-table {
+        height: 150px;
+    }
+    .trust-table img {
+        width: 100px;
+    }
+    .footer ul img {
+        width: 100px;
+    }
+    ul {
+        gap: 11px;
+    }
+    #footer-end {
+        padding-block: 17px;
+    }
+    .ttt img {
+        width: 570px;
+    }
+    .timeline img {
+        max-width: 335px;
+    }
+    .timeline-box {
+        width: 170px;
+    }
+    .team-box {
+        gap: 10px;
+        width: 170px;
+    }
+    .main-teams_image {
+        width: 500px;
+    }
+    .main h1 {
+        font-size: 27px;
+        width: 408px;
+    }
+    .nav-link {
+        gap: 10px;
+    }
+    .nav-btn button {
+        padding: 5px;
+        font-size: 10px;
+    }
+    .save {
+        font-size: 12px;
+        padding: 7px 20px;
+    }
+    .main-acc button {
+        padding: 6px 7px;
+    }
+}
+@media (max-width: 580px){
+    .trust-table h1 {
+        font-size: 14px;
+    }
+}
+@media (max-width: 572px){
+    .timeline-box {
+        width: 155px;
+    }
+    .timeline-box h4 {
+        font-size: 13px;
+        margin-bottom: 3px;
+    }
+    .work-box p {
+        width: 222px;
+        line-height: 18px;
+    }
+    #work h1 {
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .icon-box img {
+        width: 42px;
+    }
+    .icon-box {
+        width: 42px;
+        height: 41px;
+    }
+    #work {
+        padding: 80px 0 75px;
+    }
+    .progress-text h1 {
+        font-size: 20px;
+        width: 210px;
+    }
+    .progress-text p {
+        width: 250px;
+        line-height: 22px;
+    }
+    .progress-text button {
+        padding: 8px 9px;
+    }
+    .team p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .main h1 {
+        font-size: 25px;
+    }
+    .main p {
+        width: 450px;
+    }
+    .main-submit input {
+        height: 31px;
+    }
+    .main-submit button {
+        padding: 6px;
+        height: 35px;
+    }
+    .main-submit button {
+        border-top-right-radius: 6px;
+        border-bottom-right-radius: 6px;
+    }
+    .ttt img {
+        width: 530px;
+    }
+    .main-teams_image {
+        width: 460px;
+    }
+    .main p {
+        font-size: 12px;
+    }
+    #trust-table {
+        padding-bottom: 50px;
+    }
+}
+@media (max-width: 550px){
+    .team-box {
+        gap: 8px;
+        width: 145px;
+    }
+        .timeline img {
+        max-width: 274px;
+        padding-block: 30px;
+    }
+    .progress img {
+        max-width: 220px;
+        padding: 20px;
+    }
+    .team-box img {
+        width: 36px;
+    }
+    .progress-text p {
+        width: 216px;
+    }
+    .trust-table img {
+        width: 96px;
+    }
+    .footer ul img {
+        width: 96px;
+    }
+    .footer-end p {
+        font-size: 12px;
+    }
+    .footer-icons div {
+        width: 28px;
+        height: 28px;
+        font-size: 17px;
+    }
+    ul li {
+        font-size: 12px;
+    }
+    ul {
+        gap: 9px;
+    }
+    #footer {
+        padding-block: 35px;
+    }
+    .timeline-box p {
+        line-height: 15px;
+        font-size: 12px;
+    }
+    .timeline-box {
+        width: 150px;
+    }
+    .timeline-box {
+        padding: 5px 10px;
+    }
+    .ttt img {
+        width: 500px;
+    }
+    .main-teams_image {
+        width: 400px;
+    }
+    .main-teams_image img {
+        width: 50px;
+    }
+    .main h1 {
+        font-size: 23px;
+        width: 360px;
+    }
+    .work-box {
+        padding-block: 8px;
+    }
+    .work-box p {
+        width: 200px;
+    }
+    #trust-table {
+        padding-bottom: 45px;
+    }
+}
+@media (max-width: 525px){
+    .progress-text p {
+        width: 160px;
+    }
+    .progress-text h1 {
+        width: 170px;
+    }
+    .play-store {
+        gap: 10px;
+    }
+    .timeline-box {
+        width: 116px;
+        padding: 10px;
+    }
+    .timeline-box p {
+        line-height: 15px;
+    }
+    .ttt img {
+        width: 470px;
+    }
+        .progress img {
+        max-width: 255px;
+        padding: 30px;
+    }
+    .work-box p {
+        width: 205px;
+        line-height: 18px;
+    }
+    .timeline {
+    justify-content: center;
+}
+.timeline img {
+    max-width: 275px;
+    padding-block: 30px;
+}
+}
+@media (max-width: 485px){
+    .work-box p {
+        display: contents;
+        width: 300px;
+    }
+    .progress img {
+        max-width: 375px;
+        padding-block: 30px;
+    }
+    #timeline {
+    text-align: center;
+}
+.timeline-box {
+        width: 400px;
+        padding: 15px;
+    } 
+    .timeline {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}  
+    .timeline-box p {
+        line-height: 21px;
+        width: 295px;
+        display: inline-block;
+    }
+        .timeline-box h4 {
+        font-size: 14px;
+        margin-bottom: 3px;
+    }
+    .timeline img {
+        max-width: 419px;
+        padding-block: 30px;
+    }
+        #work {
+        padding: 77px 0 471px;
+    }
+    .progress {
+    flex-direction: column-reverse;
+}
+    .progress-text p {
+        display: flex;
+        text-align: center;
+        width: 310px;
+    }
+        .progress-text h1 {
+        width: 296px;
+        text-align: center;
+    }
+    .progress-text h1 {
+        text-align: center;
+        display: flex;
+        width: 316px;
+    }
+        .progress-text button {
+        width: 316px;
+        padding: 8px 9px;
+    }
+    #work {
+        padding: 77px 0 471px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+       .work-box {
+        padding-block: 8px;
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+        text-align: center;
+    }
+        .ttt img {
+        width: 455px;
+    }
+        .main p {
+        width: 370px;
+    }
+    .team p {
+        line-height: 22px;
+        width: 370px;
+    }
+        #team {
+        padding: 35px 0;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+        .team-box {
+        gap: 10px;
+        width: 120px;
+    }
+        .footer-icons div {
+        width: 25px;
+        height: 25px;
+        font-size: 15px;
+    }
+    .footer ul img {
+        width: 90px;
+    }
+    .trust-table img {
+        width: 90px;
+    }
+    .trust-table h1 {
+        font-size: 14px;
+        line-height: 23px;
+    }
+    .trust-table {
+        height: 125px;
+    }
+    .timeline {
+    justify-content: center;
+}
+.icon-box img {
+    width: 42px;
+    padding-left: 295px;
+}
+}
+@media (max-width: 460px){
+    .ttt img {
+        width: 435px;
+    }
+        .main-submit input {
+        height: 28px;
+        width: 190px;
+    }
+        .main-submit button {
+        padding: 1px;
+        height: 32px;
+    }
+        .main-teams_image {
+        width: 360px;
+    }
+        #work h1 {
+        font-size: 22px;
+        font-weight: 700;
+        font-weight: 800;
+    }
+        .main h1 {
+        font-size: 21px;
+        width: 340px;
+    }
+        .progress-text h1 {
+        text-align: center;
+        display: flex;
+        width: 316px;
+        font-weight: 800;
+    }
+    .team-box {
+        width: 150px;
+    }
+    .team-block {
+    width: 350px;
+    flex-wrap: wrap;
+}
+.timeline {
+    justify-content: center;
+}
+.icon-box img {
+    padding-left: 270px;
+}
+}
+@media (max-width: 460px){
+    .main p {
+        width: 315px;
+    }
+        .play-store {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .main h1 {
+        font-size: 20px;
+        width: 300px;
+    }
+        .ttt img {
+        width: 390px;
+    }
+        .main p {
+        width: 254px;
+    }
+    .main-teams_image {
+        width: 325px;
+    }
+        .main-teams_image img {
+        width: 48px;
+    }
+    .play-store {
+        gap: 8px;
+    }
+    .trust-table {
+        height: 125px;
+    }
+        .trust-table img {
+        width: 75px;
+    }
+    .trust-table h1 {
+        padding-right: 7px;
+        font-size: 16px;
+    }
+        .footer ul img {
+        width: 75px;
+    }
+    .work-box {
+        width: 320px;
+        display: inline-flex;
+    }
+}
+@media (max-width: 415px){
+    .play-store {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .icon-box img {
+        width: 42px;
+        padding-left: 230px;
+    }
+        .trust-table h1 {
+        padding-right: 5px;
+        font-size: 15px;
+    }
+        .work-box {
+        width: 276px;
+    }
+    .timeline-box {
+        width: 300px;
+    }
+        .timeline-box p {
+        width: 240px;
+    }
+}
+@media (max-width: 404px){
+    ul li:first-child {
+        padding-top: 10px;
+    }
+}
+@media (max-width: 390px){
+.timeline-box {
+        width: 280px;
+    }
+        .team p {
+        line-height: 22px;
+        width: 315px;
+    }
+    .ttt img {
+        width: 345px;
+    }
+    .progress img {
+        max-width: 295px;
+        padding-block: 30px;
+    }
+    .timeline img {
+        max-width: 285px;
+        padding-block: 30px;
+    }
+    .footer {
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 350px){
+.team p {
+        width: 229px;
+    }
+        .team-box {
+        gap: 8px;
+        width: 140px;
+    }
+    ul li:first-child {
+    padding-top: 20px;
+}
+.footer-icons {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+    .ttt img {
+        width: 330px;
+    }
+        .main-teams_image {
+        width: 290px;
+    }
+        .main-submit button {
+        font-size: 10px;
+    }
+        .main-submit input {
+        font-size: 12px;
+        height: 28px;
+    }
+        .icon-box img {
+        padding-left: 225px;
+    }
+    .progress img {
+        max-width: 285px;
+        padding-block: 30px;
+    }
+    .timeline img {
+        max-width: 275px;
+        padding-block: 30px;
+    }
+} 

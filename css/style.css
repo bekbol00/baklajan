@@ -8,13 +8,14 @@ a {
   text-decoration: none; 
   cursor: pointer; 
 } 
- 
 button, 
 select { 
   border: none; 
   cursor: pointer; 
 } 
- 
+ .burger-menu{
+  display: flex;
+ }
 .container { 
   width: 85%; 
   margin: 0 auto; 
@@ -26,7 +27,7 @@ select {
 .header { 
   display: flex; 
   align-items: center; 
-  justify-content: space-between; 
+  justify-content: space-around; 
 } 
 .header h3 { 
   font-size: 21px; 
@@ -81,6 +82,7 @@ button {
   align-items: center; 
 } 
 .save { 
+  font-size: 16px;
   padding: 8px 28px; 
   background: #f2f9eb; 
   border-top-right-radius: 40px; 
@@ -143,11 +145,14 @@ button {
  
 .main-teams_image { 
   padding: 27px 0; 
-  width: 800px; 
+  width: 900px; 
   display: flex; 
   justify-content: space-between; 
   align-items: center; 
 } 
+.main-teams_image img{
+  width: 90px;
+}
  
 #timeline { 
   padding: 50px 0; 
@@ -208,10 +213,7 @@ button {
   display: flex; 
   justify-content: center; 
   align-items: center; 
-  width: 64px; 
-  height: 64px; 
-  border-radius: 50%; 
-  background: #fef6ee; 
+
 } 
  
 .work { 
@@ -238,7 +240,9 @@ button {
   line-height: 24px; 
   color: #4e5a65; 
 } 
- 
+ .work-box {
+  padding-block: 30px;
+ }
 #progress { 
   padding: 50px 0; 
   background: #fbfafe; 
@@ -285,10 +289,9 @@ button {
   display: flex; 
   flex-direction: column; 
   align-items: center; 
-} 
- 
+}
 .team h1 { 
-  color: #35414b; 
+  color: #000000; 
   font-weight: 500; 
   font-size: 27px; 
 } 
